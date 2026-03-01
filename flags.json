@@ -1,0 +1,21 @@
+{
+  "flags": {
+    "new_checkout": {
+      "enabled": true,
+      "rollout_percent": 25,
+      "description": "Redesigned checkout flow"
+    },
+    "dark_mode": {
+      "enabled": true,
+      "target_users": [
+        "user_42",
+        "user_88"
+      ],
+      "description": "Dark mode beta"
+    },
+    "legacy_api": {
+      "enabled": false,
+      "description": "Kill switch for deprecated v1 API"
+    }
+  }
+}
